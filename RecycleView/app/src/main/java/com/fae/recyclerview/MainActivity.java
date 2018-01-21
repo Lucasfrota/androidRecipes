@@ -26,13 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
         items = new ArrayList<>();
 
-        /*
-        for(int i = 0; i < 10; i++){
-            Item itemAux = new Item("item" + String.valueOf(i) , "sub");
-            items.add(itemAux);
-        }
-        */
-
         items.add(new Item("Adele", "Send my love"));
         items.add(new Item("Lady Gaga","Bad romance"));
         items.add(new Item("David Bowie","Space Oddity"));
